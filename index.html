@@ -7,9 +7,7 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <div class="index-logo">
-             <a href=""><img src="img/index-logo.png" width="50" heigth="20" alt="barbershop"></a>
-            </div>
+            <a class="index-logo" href=""><img src="img/index-logo.png" width="50" heigth="20" alt="barbershop"></a>
             <nav class="main-navigation">     
                 <ul>
                     <li><a href src="">информация</a></li> 
@@ -29,9 +27,9 @@
          <h1 class="short-menu-title">Средства для ухода</h1>
             <nav class="additional-navigation">     
                 <ul>
-                    <li><a href src="">Главнаяя</a></li> 
-                    <li><a href src="">Магазин</a></li> 
-                    <li><a href src="">Средства для ухода</a></li>
+                    <li><a class="breadscrumbs-item" href src="">Главнаяя</a></li> 
+                    <li><a class="breadscrumbs-item" href src="">Магазин</a></li> 
+                    <li><a class "breadscrumbs-item" href src="">Средства для ухода</a></li>
                 </ul>
             </nav>
          </div>
@@ -40,67 +38,104 @@
                 <div class="filter">
                     <h3>Производители</h3>
                     <div class="ch-group">
-                         <input type="checkbox" name="items" id="" checked>
-                         <label for="">baxter of california</label>
+                         <input type="checkbox" name="baxter of california" id="ch1" checked>
+                         <label for="ch1">baxter of california</label>
                     </div>
                     <div class="ch-group">
-                         <input type="checkbox" name="items" id="">
-                         <label for="">MR nato</label>
+                         <input type="checkbox" name="MR nato" id="ch2">
+                         <label for="ch2">MR nato</label>
                     </div>
                     <div class="ch-group">
-                         <input type="checkbox" name="items" id="">
-                         <label for="">MR nato</label>
+                         <input type="checkbox" name="slavecito" id="ch4" checked>
+                         <label for="ch4">slavecito</label>
                     </div>
                     <div class="ch-group">
-                         <input type="checkbox" name="items" id="">
-                         <label for="">slavecito</label>
+                         <input type="checkbox" name="malin-goetz" id="ch5">
+                         <label for="ch5">malin-goetz</label>
                     </div>
                     <div class="ch-group">
-                         <input type="checkbox" name="items" id="">
-                         <label for="">malin-goetz</label>
+                         <input type="checkbox" name="murreys" id="ch6">
+                         <label for="ch6">murreys</label>
                     </div>
                     <div class="ch-group">
-                         <input type="checkbox" name="items" id="">
-                         <label for="">murreys</label>
-                    </div>
-                    <div class="ch-group">
-                         <input type="checkbox" name="items" id="">
-                         <label for="">american crew</label>
+                         <input type="checkbox" name="american crew" id="ch7" checked>
+                         <label for="ch7">american crew</label>
                     </div>
                 </div>
                  <div class="filter">
                       <h3>Группы товаров</h3>
                 <div class="ch-group">
-                         <input type="radio" name="items" id="">
-                         <label for="">Бритвенные принадлежности</label>
+                         <input type="radio" name="oils" id="r1">
+                         <label for="r1">Бритвенные принадлежности</label>
                 </div>
                 <div class="ch-group">
-                         <input type="radio" name="items" id="">
-                         <label for="">Средства для ухода</label>
+                         <input type="radio" name="сфку" id="r2" checked>
+                         <label for="r2">Средства для ухода</label>
                 </div>
                 <div class="ch-group">
-                         <input type="radio" name="items" id="">
-                         <label for="">Аксессуары</label>
+                         <input type="radio" name="accessories" id="r3">
+                         <label for="r3">Аксессуары</label>
                 </div>
-                
-                <a class="" href>Показать</a>
-
-
-
-
+                <input type="submit" class="btnshow" value="Показать">
                 </div>
             </form>    
-                
         </div>
-
-
         <div class="content-right">
+            <div class="catalog-item">
+             <img src="" alt="">
+             <h3>Набор для путешествий "Baxter of california"</h3>
+             <span>2500</span>
+             <a href="">Купить</a>
+            </div>
+            <div class="catalog-item">
+             <img src="" alt="">
+             <h3>Увлажняющий кондиционер "Baxter of california"</h3>
+             <span>2500</span>
+             <a href="">Купить</a>
+            </div>
+            <div class="catalog-item">
+             <img src="" alt="">
+             <h3>Гель для волос "Slavecito"</h3>
+             <span>2500</span>
+             <a href="">Купить</a>
+            </div>
+            <div class="catalog-item">
+             <img src="" alt="">
+             <h3>Гель для увлажнения волос "American crew"</h3>
+             <span>2500</span>
+             <a href="">Купить</a>
+            </div>
+              <div class="catalog-item">
+             <img src="" alt="">
+             <h3>Гель для волос "American crew"</h3>
+             <span>2500</span>
+             <a href="">Купить</a>
+            </div>
+             </div>
+              <div class="catalog-item">
+             <img src="" alt="">
+             <h3>Набор для бритья "Baxter of california"</h3>
+             <span>2500</span>
+             <a href="">Купить</a>
+            </div>
+            <div class="paginator">
+                <ul>
+                    <li><a href>1</a></li>
+                    <li class="active"><a href>2</a></li>
+                    <li><a href>3</a></li>
+                    <li><a href>4</a></li>
+                </ul>
+            </div>
         </div>    
-
-
     </main>
-</body>
 <footer>
- <div class="contacts">   
+<div class="footer-contact">
+    Барбершоп "Бородинский"<br>
+    Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8<br>
+    <a href="">Как нас найти?</a><br>
+    <tel>Телефон: +7(495)666-02-66</tel>
+<div class="contacts">  
 </footer>
+</body>
+
 </html
